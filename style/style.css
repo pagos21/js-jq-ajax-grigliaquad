@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2{
+  color: red;
+  margin: 10px 0;
+}
+
+.cont{
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.cont > * {
+  margin: auto;
+  text-align: center;
+}
+
+table{
+  border: 1px solid black;
+}
+
+td{
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+}
+
+
+.yellow{
+  background-color: yellow;
+}
+
+.green{
+  background-color: green;
+}
+
+.written{
+
+}
+.free{}
