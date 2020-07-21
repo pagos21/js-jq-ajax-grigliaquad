@@ -22,12 +22,12 @@ function getApi(){
 
       if (success) {
         console.log(value);
-        if (value <= 5 ) {
+        if (value <= 5 && tg.hasClass("free")) {
           tg.text(value).addClass("yellow written").removeClass("green free");
 
         }
 
-        else if (value > 5) {
+        else if (value > 5 && tg.hasClass("free")) {
           tg.text(value).addClass("green written").removeClass("yellow free");
 
         }
