@@ -46,7 +46,7 @@ function getApi(){
 
 function init (){
 getTable();
-rst()
+rst();
 }
 
 
